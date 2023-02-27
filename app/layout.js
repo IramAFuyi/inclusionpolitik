@@ -20,14 +20,6 @@ const linksMenu=[
     route:'/Representantes'
   },
   {
-    label:'Terms',
-    route:'/Terms'
-  },
-  {
-    label:'Privacy Statements',
-    route:'/Privacy_Statements'
-  },
-  {
     label:'Contact',
     route:'/Contact'
   },
