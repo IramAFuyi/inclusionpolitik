@@ -19,7 +19,7 @@ export default function Home() {
         <br /><br />
         <label htmlFor="password">It is correct your password?</label>
         <br />
-        <a href="">Woud you like change  the password?</a>
+        <a href="">Woud you like to change  the password?</a>
         <br />
         </body>
         
