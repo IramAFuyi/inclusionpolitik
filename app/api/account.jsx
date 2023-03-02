@@ -4,19 +4,21 @@ import {userSession, signOut, getSession } from 'next-auth/react'
 const account = () => {
 const {data: session, status } = useSession();
 
-    if(status === 'authenticated') {
+    if(status === "authenticated") {
         return (
-            <div><p>Welcome{session.user.name}</p></div>
+            <p>Welcome{session.user.name}</p>
             <button onClick={() => signOut()}>Sign Out </button>
         )
-    } else {
+    } else{
         return (
             <div>
                 <p>You are not signed in.</p>
             </div>
         );
     }
+return <a href="http://localhost3000/api/auth/signin">Sign in</a>
 };
+
 
 export default account;
 
@@ -30,7 +32,7 @@ export const getServerSideProps = async (context) =>{
         };
     }
     return {
-       props: {session},  
+       props: {session} 
     };
 
 };

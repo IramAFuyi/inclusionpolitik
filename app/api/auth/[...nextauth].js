@@ -2,7 +2,7 @@
 import NextAuth from 'next-auth';
 import GitHubProvider from 'next-auth/providers/github';
 //se exporta la funcion de este modulo
-export defaultNextAuth({
+export default NextAuth({
   //Se selecciona un proveedor con el cual vamos a iniciar sesion mediante un arreglo
   providers:[
   GitHubProvider ({

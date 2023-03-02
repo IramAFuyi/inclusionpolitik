@@ -1,5 +1,7 @@
 import React from 'react'
 import{UserSession, signIn,SignOut} from 'next-auth/react'
+import Home from '../page';
+import account from './account';
 const login = () =>{
     const {data: session} = UserSession()
     console.log(session);
@@ -17,6 +19,6 @@ const login = () =>{
                 <button onClick={() => signIn}>Sign in.</button>
             </div>
         )
+export default function Home();
 }
 
-export default login 
