@@ -9,4 +9,5 @@ function MyApp({ Component, pageProps, session }) {
            
     )
 }
+
 export default MyApp
