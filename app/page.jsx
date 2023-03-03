@@ -9,9 +9,8 @@ export default function Home(){
         
             )
     }
-export const getServerSideProps = async (context)=>{
-    const res = await fetch ("https://maps.googleapis.com/maps/api/staticmap")
-
-
-
-}
+    
+    
+        
+    
+    

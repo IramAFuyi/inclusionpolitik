@@ -28,10 +28,13 @@ export default function Home() {
                     <br />
                 
                     <br />
-                    <button type="submit">Register</button>
+                    <button  type="submit">Register</button>
+                    <span>Redirect</span>
+                    <link to='/Tenemos_el_poder' ></link>
+                    <link to='/Representantes' ></link>
                     </form>
         </body>
        </>
-        
+     
     )
 }
