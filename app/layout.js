@@ -1,6 +1,6 @@
 //importar link (esto es de react)
 import Link from "next/link"
-
+import '../styles/globals.css'
 const linksMenu=[
 
   {
